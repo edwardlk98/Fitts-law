@@ -1,0 +1,32 @@
+#startHeading, #button{
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+}
+#maincontainer{
+    // display: flex;
+    // justify-content: center;
+    // text-align: center;
+    text-align: center;
+    line-height: 25px
+}
+#button{
+    
+    width: 200px;
+    border-radius: 1%;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+    
+    cursor: pointer;
+}
+#buttoncontainer{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
